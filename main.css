@@ -1,15 +1,39 @@
 body {
+  font-family: "Montserrat", sans-serif;
   margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  min-height: 600px;
+  height: auto;
+  background-image: url(./assets/header-image.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.large {
+  font-size: 56px;
 }
 
 .icon {
   width: 30px;
   padding: 5px;
-  -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
+  -webkit-filter: invert(100%);
   filter: invert(100%);
 }
 
-.footer {
+footer {
   display: flex;
   justify-content: space-around;
   background-color: black;
