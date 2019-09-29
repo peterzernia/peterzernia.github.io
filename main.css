@@ -1,10 +1,13 @@
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0px;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 100vh;
+  justify-content: center;
+  align-content: center;
+  overflow-y: scroll;
+  background-color: black;
 }
 
 header {
@@ -13,17 +16,59 @@ header {
   justify-content: center;
   align-content: center;
   text-align: center;
-  width: 100%;
-  min-height: 600px;
+  min-height: 500px;
   height: auto;
   background-image: url(./assets/header-image.jpg);
-  background-position: center;
+  background-position: center top;
   background-size: cover;
+  color: white;
+}
+
+span {
   color: white;
 }
 
 .large {
   font-size: 56px;
+}
+
+.medium {
+  font-size: 30px;
+}
+
+.section-title {
+  margin: 30px;
+  text-align: center;
+}
+
+.portfolio {
+  margin: 20px;
+  overflow-x: scroll;
+}
+
+.projects-container {
+  display: flex;
+  width: 1500px;
+  padding-bottom: 20px;
+}
+
+.project {
+  border: 1px black solid;
+  margin: 0px 10px;
+  text-align: center;
+}
+
+.full {
+  width: 600px;
+}
+
+.half {
+  width: 300px;
+}
+
+.portfolio-img {
+  width: auto;
+  height: 400px;
 }
 
 .icon {
