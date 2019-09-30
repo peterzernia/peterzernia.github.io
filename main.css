@@ -16,12 +16,17 @@ header {
   justify-content: center;
   align-content: center;
   text-align: center;
-  min-height: 500px;
+  min-height: 450px;
   height: auto;
   background-image: url(./assets/header-image.jpg);
   background-position: center top;
   background-size: cover;
   color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 span {
@@ -36,9 +41,27 @@ span {
   font-size: 30px;
 }
 
+.divider {
+  width: 100%;
+  height: 30vh;
+}
+
 .section-title {
   margin: 30px;
   text-align: center;
+}
+
+.about {
+  text-align: center;
+  max-width: 450px;
+  margin: auto;
+}
+
+.headshot {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  margin: 20px;
 }
 
 .portfolio {
@@ -56,14 +79,6 @@ span {
   border: 1px black solid;
   margin: 0px 10px;
   text-align: center;
-}
-
-.full {
-  width: 600px;
-}
-
-.half {
-  width: 300px;
 }
 
 .portfolio-img {
