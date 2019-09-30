@@ -68,18 +68,21 @@ span {
 }
 
 .portfolio {
-  margin: 20px;
   overflow-x: scroll;
+}
+
+.arrow {
+  height: 50px;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }
 
 .projects-container {
   display: flex;
-  width: 1500px;
   padding-bottom: 20px;
 }
 
 .project {
-  border: 1px black solid;
   margin: 0px 10px;
   text-align: center;
 }
