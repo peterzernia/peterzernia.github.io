@@ -71,8 +71,9 @@ span {
   overflow-x: scroll;
 }
 
-.arrow {
-  height: 50px;
+.arrow,
+.email {
+  height: 40px;
   -webkit-filter: invert(100%);
   filter: invert(100%);
 }
@@ -99,8 +100,11 @@ span {
   filter: invert(100%);
 }
 
+.contact {
+  text-align: center;
+}
+
 footer {
   display: flex;
   justify-content: space-around;
-  background-color: black;
 }
