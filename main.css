@@ -76,13 +76,6 @@ span {
   overflow-x: scroll;
 }
 
-.arrow,
-.email {
-  height: 40px;
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
-}
-
 .projects-container {
   display: flex;
   padding-bottom: 20px;
@@ -98,18 +91,26 @@ span {
   height: 400px;
 }
 
+.icon-wrapper {
+  width: 48px;
+  height: 48px;
+  margin: auto;
+}
+
+.arrow,
 .icon {
-  width: 30px;
-  padding: 5px;
+  width: 40px;
   -webkit-filter: invert(100%);
   filter: invert(100%);
 }
 
-.contact {
-  text-align: center;
+.icon:hover {
+  width: 44px;
+  height: 44px;
 }
 
 footer {
   display: flex;
   justify-content: space-around;
+  padding: 16px 8px;
 }
