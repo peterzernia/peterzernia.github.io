@@ -12,13 +12,18 @@ body {
 
 header {
   text-align: center;
-  min-height: 900px;
-  height: auto;
+  height: 100vh;
   width: 100%;
   background-image: url(./assets/header-image.jpg);
   background-position: center top;
   background-size: cover;
   color: white;
+}
+
+@media only screen and (max-width: 500px) {
+  .header {
+    background-position: left top;
+  }
 }
 
 .header-text {
@@ -66,6 +71,10 @@ span {
 }
 
 .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
   text-align: center;
   max-width: 450px;
   margin: auto;
@@ -75,7 +84,7 @@ span {
   width: 150px;
   height: 150px;
   border-radius: 150px;
-  margin: 20px;
+  margin: 20px auto;
 }
 
 @media only screen and (max-width: 1785px) {
