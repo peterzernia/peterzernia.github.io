@@ -72,10 +72,23 @@ span {
   margin: 20px;
 }
 
+@media only screen and (max-width: 1785px) {
+  .portfolio {
+    display: block;
+    overflow-x: scroll;
+  }
+}
+
+@media only screen and (min-width: 1785px) {
+  .arrow {
+    visibility: hidden;
+  }
+}
+
 .portfolio {
-  overflow-x: scroll;
-  margin: auto;
   width: 100vw;
+  display: flex;
+  justify-content: space-around;
 }
 
 .portfolio::-webkit-scrollbar-track {
