@@ -83,6 +83,10 @@ span {
   .arrow {
     visibility: hidden;
   }
+  .projects-container {
+    width: 100%;
+    justify-content: space-around;
+  }
 }
 
 .portfolio {
