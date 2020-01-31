@@ -41,8 +41,14 @@ span {
   color: white;
 }
 
+@media only screen and (min-width: 600px) {
+  .large {
+    font-size: 56px;
+  }
+}
+
 .large {
-  font-size: 56px;
+  font-size: 48px;
 }
 
 .medium {
