@@ -74,6 +74,8 @@ span {
 
 .portfolio {
   overflow-x: scroll;
+  margin: auto;
+  width: 100vw;
 }
 
 .projects-container {
@@ -84,6 +86,7 @@ span {
 .project {
   margin: 0px 10px;
   text-align: center;
+  color: white;
 }
 
 .portfolio-img {
