@@ -140,19 +140,33 @@ span {
 }
 
 .icon-wrapper {
+  text-align: center;
   width: 48px;
   height: 48px;
   margin: auto;
 }
 
 .arrow,
-.icon {
+.email {
   width: 40px;
+  height: 40px;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.icon {
+  width: 36px;
+  height: 36px;
   -webkit-filter: invert(100%);
   filter: invert(100%);
 }
 
 .icon:hover {
+  width: 40px;
+  height: 40px;
+}
+
+.email:hover {
   width: 44px;
   height: 44px;
 }
@@ -160,5 +174,5 @@ span {
 footer {
   display: flex;
   justify-content: space-around;
-  padding: 16px 8px;
+  padding: 8px;
 }
